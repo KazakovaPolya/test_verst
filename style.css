@@ -1,0 +1,56 @@
+/*header{
+    display: flex;
+}*/
+
+.qwery{
+    color: var(--wei, #FFF);
+font-family: Open Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.24px;
+text-transform: capitalize;
+}
+
+ul.nav li{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: inline;
+padding: 0px 25px 0px;
+justify-content: center;
+}
+
+.search{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-right: 14px;
+}
+
+.search-image{
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+}
+
+.header{
+    display: flex;
+    margin-top: 64px;
+    margin-left: 85px;
+    margin-right: 84px;
+   
+}
+
+.body{
+    background-color: black;
+    background: linear-gradient( 352deg, transparent, rgb(0, 0, 0)), url(img/Rectangle.png);
+    background-size: 100%;
+}
