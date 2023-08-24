@@ -1,7 +1,3 @@
-/*header{
-    display: flex;
-}*/
-
 .qwery{
     color: var(--wei, #FFF);
 font-family: Open Sans;
@@ -13,6 +9,7 @@ letter-spacing: 0.24px;
 text-transform: capitalize;
 justify-content: left;
 padding-right: 702px;
+margin: auto;
 }
 
 ul.nav{
@@ -24,7 +21,7 @@ font-weight: 600;
 line-height: normal;
 flex-direction: row;
 display: inline-flex;
-margin: 0;
+margin: auto;
 padding: 0;
 grid-gap: 50px;
 }
@@ -41,6 +38,8 @@ font-weight: 400;
 line-height: normal;
 padding-left: 701px;
 flex-direction: row;
+display: flex;
+margin: auto;
 
 }
 
@@ -49,6 +48,7 @@ flex-direction: row;
 height: 20px;
 flex-shrink: 0;
 padding-right: 14px;
+margin: auto;
 }
 
 .header{
@@ -62,11 +62,47 @@ padding-right: 14px;
 
 .body{
     background-color: black;
-    background: linear-gradient( 352deg, transparent, rgb(0, 0, 0)), url(img/Rectangle.png);
+    /*background: linear-gradient( 352deg, transparent, rgb(0, 0, 0)), url(img/Rectangle.png);
+ */
+    background: linear-gradient(347deg, rgba(0, 0, 0, 0.00) 0%, #000 100%),  url(img/Rectangle.png) no-repeat;
     background-size: 100%;
 }
 
+main{
+    padding-top: 196px;
+}
+
+.middleOne{
+    display: inline-flex;
+    flex-direction: row;
+    align-items: last baseline;
+
+}
+
 .content{
+display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+margin-right: 470px;
+margin-left: 500px;
+}
+
+.rectangle-explore{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 32px;
+}
+
+.Rectangle{
+    width: 72px;
+height: 2px;
+flex-shrink: 0;
+background: #FFC178;
+margin: auto;
+}
+
+.explore{
     color: #FFC178;
 font-family: Open Sans;
 font-size: 18px;
@@ -75,4 +111,78 @@ font-weight: 700;
 line-height: normal;
 letter-spacing: 6px;
 text-transform: uppercase;
+margin: auto;
+}
+
+.discover{
+    width: 950px;
+}
+
+#one{
+    color: var(--wei, #FFF);
+font-family: Open Sans;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: 100px; /* 104.167% */
+text-transform: capitalize;
+margin: auto;
+}
+
+#two{
+    color: var(--wei, #FFF);
+font-family: Open Sans;
+font-size: 88px;
+font-style: normal;
+font-weight: 400;
+line-height: 100px;
+text-transform: capitalize;
+margin: auto;
+}
+
+.contact{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+display: inline-flex;
+flex-direction: row;
+transform: rotate(90deg);
+grid-gap: 20px;
+}
+
+.inst, .face, .twitter{
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+transform: rotate(-90deg);
+}
+
+.scroll{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding-top: 126px;
+display: flex;
+flex-direction: row;
+gap: 9px;
+   justify-content: center;
+}
+
+.down{
+    width: 16px;
+height: 24px;
+flex-shrink: 0;
+}
+
+.Rectangle3{
+    width: 1920px;
+height: 358px;
+flex-shrink: 0;
+fill: linear-gradient(360deg, #000 0%, rgba(0, 0, 0, 0.00) 100%);
 }
